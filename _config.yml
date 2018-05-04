@@ -1,12 +1,13 @@
 # Site settings
-title: danaweng
-SEOTitle: danaweng的博客
-header-img: img/post-bg-wengdada.gif
-email: linuxweng@gmail.com
-description: "天道酬勤"
-keyword: "danaweng的博客,翁达标, iOS"
-url: "https://GitHub-Weng.github.io"          # your host, for absolute URL
+title: ZML Blog
+SEOTitle: mlzhong的摸鱼志 | ZML Blog
+header-img: img/post-bg-desk.jpg
+email: 446864360@qq.com
+description: "啥都没有啦，你可以随便看看 /笔端有风月"
+keyword: "mlzhong, ZML, ZML Blog, 摸鱼志, zhongminling, 钟敏玲, "
+url: "https://mlzhong.github.io/"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: "https://github.com/mlzhong/mlzhong.github.io.git" # you code repository
 
 
 
@@ -14,7 +15,7 @@ baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 RSS: false
 weibo_username:    
 #zhihu_username:     huxpro
-github_username:    GitHub-Weng
+github_username:    mlzhong
 #twitter_username:  huxpro
 #facebook_username:  huxpro
 # linkedin_username:  firstname-lastname-idxxxx
@@ -61,13 +62,14 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: '159eaf9b149107456cd0'    #生成的clientID
-  clientSecret: 'fc72ad9010952e5637f9b92a1b938bd1bd7eb4e9'   #同上
-  repo: GitHub-Weng.github.io    #仓库名称
-  owner: GitHub-Weng    #github用户名
-  admin: GitHub-Weng
+  clientID: '8c2de8778279e770c766'    #生成的clientID
+  clientSecret: 'bf54be59a70836d5af19f9a3a6ed29dc5741a425'   #同上
+  repo: mlzhong.github.io    #仓库名称
+  owner: mlzhong    #github用户名
+  admin: mlzhong
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
-
+# 统计
 # Analytics settings
 # Baidu Analytics 
 # ba_track_id: [your track id]
@@ -80,15 +82,14 @@ gitalk:
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "追求本心"
-sidebar-avatar: /img/avatar-me.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "茶或酒 饮与酌 梅雪落作杯中色"
+sidebar-avatar: /img/about-BY-gentle.jpg       # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
-
+featured-tags: true                    # 是否使用首页标签
+featured-condition-size: 0             # 相同标签数量大于这个数，才会出现在首页
 
 
 # Progressive Web Apps
@@ -97,17 +98,17 @@ service-worker: true
 
 
 
-# Friends
-friends: [
-    {
-        title: "Su",
-        href: "http://su.gallery/"
-    },{
-        title: "前端神盾局",
-        href: "http://wepiaofei.github.io/blog/"
-    }
-    ,{
-        title: "Android Developer",
-        href: "https://developer.android.google.cn/index.html"
-    }
-]
+# # Friends
+# friends: [
+#     {
+#         title: "Su",
+#         href: "http://su.gallery/"
+#     },{
+#         title: "前端神盾局",
+#         href: "http://wepiaofei.github.io/blog/"
+#     }
+#     ,{
+#         title: "Android Developer",
+#         href: "https://developer.android.google.cn/index.html"
+#     }
+# ]
